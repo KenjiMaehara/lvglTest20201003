@@ -10,6 +10,7 @@
 #include "lv_examples.h"
 #include "lv_demo_benchmark.h"
 #include "lv_ex_conf_template.h"
+#include "lvgl.h"
 
 #if LV_USE_DEMO_BENCHMARK
 
@@ -71,7 +72,7 @@ static bool opa_mode = true;
 LV_IMG_DECLARE(img_cogwheel_argb);
 LV_IMG_DECLARE(img_cogwheel_rgb);
 LV_IMG_DECLARE(img_cogwheel_chroma_keyed);
-LV_IMG_DECLARE(img_cogwheel_indexed16);
+LV_IMG_DECLARE(img_cogwheel_indexed16);ｄ
 LV_IMG_DECLARE(img_cogwheel_alpha16);
 
 LV_FONT_DECLARE(lv_font_montserrat_12_compr_az);
