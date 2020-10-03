@@ -6,8 +6,13 @@
 /*********************
  *      INCLUDES
  *********************/
-#include "../../lv_examples.h"
+//#include "../../lv_examples.h"
+#include "lv_examples.h"
 #include "lv_demo_widgets.h"
+#include "lv_ex_conf_template.h"
+
+
+
 
 #if LV_USE_DEMO_WIDGETS
 

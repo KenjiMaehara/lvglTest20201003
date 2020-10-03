@@ -1,6 +1,8 @@
 #include <Arduino.h>
-#include "lv_demo_benchmark.h"
 #include "lv_ex_conf_template.h"
+#include "lv_demo_widgets.h"
+
+
 
 //void lv_demo_benchmark(void);
 
@@ -10,4 +12,5 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  lv_demo_widgets();
  }
