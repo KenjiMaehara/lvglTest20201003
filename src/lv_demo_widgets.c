@@ -13,6 +13,11 @@
 #include "src/lv_core/lv_obj.h"
 #include "src/lv_widgets/lv_tabview.h"
 #include "src/lv_widgets/lv_table.h"
+#include "src/lv_widgets/lv_slider.h"
+#include "src/lv_themes/lv_theme.h"
+#include "lv_conf_template.h"
+#include "src/lv_core/lv_disp.h"
+#include "src/lv_widgets/lv_switch.h"
 
 
 
