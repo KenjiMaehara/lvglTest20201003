@@ -18,7 +18,10 @@
 #include "lv_conf_template.h"
 #include "src/lv_core/lv_disp.h"
 #include "src/lv_widgets/lv_switch.h"
-
+#include "src/lv_widgets/lv_btnmatrix.h"
+#include "src/lv_widgets/lv_chart.h"
+#include "src/lv_widgets/lv_gauge.h"
+#include "src/lv_widgets/lv_arc.h"
 
 
 #if LV_USE_DEMO_WIDGETS
