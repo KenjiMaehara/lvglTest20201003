@@ -23,6 +23,7 @@
 #include "src/lv_widgets/lv_gauge.h"
 #include "src/lv_widgets/lv_arc.h"
 #include "src/lv_widgets/lv_calendar.h"
+#include "src/lv_widgets/lv_list.h"
 
 
 #if LV_USE_DEMO_WIDGETS
