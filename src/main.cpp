@@ -4,9 +4,12 @@
 #include <TFT_eSPI.h>       // Hardware-specific library
 
 
+
+
 TFT_eSPI tft = TFT_eSPI();  // Invoke custom library
 
 //void lv_demo_benchmark(void);
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -45,9 +48,11 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   //lv_demo_widgets();
+  lv_demo_widgets();
 
 
 
+#if 0
 
     tft.invertDisplay( false ); // Where i is true or false
 
@@ -96,6 +101,8 @@ void loop() {
 
   tft.setTextColor(TFT_BLUE, TFT_BLACK);
   tft.println("Blue text");
+
+  #endif
 
   delay(5000);
  }

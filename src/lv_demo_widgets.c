@@ -7,7 +7,7 @@
  *      INCLUDES
  *********************/
 
-#if 0
+#if 1
 //#include "../../lv_examples.h"
 #include "lv_examples.h"
 #include "lv_demo_widgets.h"
@@ -27,6 +27,8 @@
 #include "src/lv_widgets/lv_calendar.h"
 #include "src/lv_widgets/lv_list.h"
 #endif
+
+
 
 #if LV_USE_DEMO_WIDGETS
 
